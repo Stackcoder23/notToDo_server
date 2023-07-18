@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use(require("./api/crud"));
+app.use(require("./api/index"));
 const dbo = require("./db/conn");
  
 app.listen(port, async () => {
